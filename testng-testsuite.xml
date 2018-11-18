@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression TestSuite" preserve-order="true" parallel="false">
+	<test name="Application Test">
+		<classes>
+			<class name= "com.expedia.flightsbooking.TestNG_TestSuite"></class>
+			<class name= "com.expedia.flightsbooking.AppTest"></class>
+		</classes>
+	</test>
+</suite>

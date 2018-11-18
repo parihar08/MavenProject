@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression TestSuite" preserve-order="true" parallel="false">
+	<test name="Groups Demo">
+		<groups>
+			<define name="all">
+				<include name="bikes"></include>
+				<include name="suv"></include>
+				<include name="sedan"></include>
+			</define>
+			<define name="cars">
+				<include name="suv"></include>
+				<include name="sedan"></include>
+			</define>
+			<define name="bike">
+				<include name="bikes"></include>
+			</define>
+			<run>		
+				<include name="all"></include>			
+			</run>
+		</groups>
+		<classes>
+			<class name= "com.expedia.flightsbooking.TestNG_Grouping"></class>
+		</classes>
+	</test>
+</suite>

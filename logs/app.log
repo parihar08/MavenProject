@@ -1,0 +1,6 @@
+15:32.24.631 INFO  SearchPageMvn -Origin text box element found
+15:32.27.646 INFO  SearchPageMvn -Enter origin city as New York
+15:32.27.701 INFO  SearchPageMvn -Destination text box element found
+15:32.30.160 INFO  SearchPageMvn -Enter destination city as Chicago
+15:32.30.331 INFO  SearchPageMvn -Enter departure date as 12/25/2015
+15:32.30.653 INFO  SearchPageMvn -Enter return date as 12/31/2015
